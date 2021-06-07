@@ -7,11 +7,10 @@ import (
 
 	"github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"
-	
-	"gopsgheroku/common/obj"
-	"gopsgheroku/common/response"
-	"gopsgheroku/dto"
-	"gopsgheroku/service"
+	"github.com/makarimachmad/makarimappstore/common/obj"
+	"github.com/makarimachmad/makarimappstore/common/response"
+	"github.com/makarimachmad/makarimappstore/dto"
+	"github.com/makarimachmad/makarimappstore/service"
 )
 
 type UserHandler interface {

@@ -1,4 +1,4 @@
-module gopsgheroku
+module github.com/makarimachmad/makarimappstore
 
 // +heroku goVersion go1.15
 go 1.15

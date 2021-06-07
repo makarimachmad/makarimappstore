@@ -6,10 +6,11 @@ import (
 
 	"github.com/mashingan/smapping"
 	
-	"gopsgheroku/dto"
-	"gopsgheroku/entity"
-	"gopsgheroku/repo"
-	_user "gopsgheroku/service/user"
+	"github.com/makarimachmad/makarimappstore/dto"
+	"github.com/makarimachmad/makarimappstore/entity"
+	"github.com/makarimachmad/makarimappstore/repo"
+	_user "github.com/makarimachmad/makarimappstore/service/user"
+	
 	"gorm.io/gorm"
 )
 

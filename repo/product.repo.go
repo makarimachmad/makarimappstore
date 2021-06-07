@@ -1,7 +1,7 @@
 package repo
 
 import (
-	"gopsgheroku/entity"
+	"github.com/makarimachmad/makarimappstore/entity"
 	"gorm.io/gorm"
 )
 

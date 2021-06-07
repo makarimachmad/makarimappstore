@@ -7,8 +7,8 @@ import (
 	"github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"
 	
-	"gopsgheroku/common/response"
-	"gopsgheroku/service"
+	"github.com/makarimachmad/makarimappstore/common/response"
+	"github.com/makarimachmad/makarimappstore/service"
 )
 
 //AuthorizeJWT validates the token user given, return 401 if not valid

@@ -5,12 +5,11 @@ import (
 	"os"
 
 	"github.com/gin-gonic/gin"
-	
-	"gopsgheroku/config"
-	"gopsgheroku/handler/v1"
-	"gopsgheroku/middleware"
-	"gopsgheroku/repo"
-	"gopsgheroku/service"
+	"github.com/makarimachmad/makarimappstore/config"
+	"github.com/makarimachmad/makarimappstore/handler/v1"
+	"github.com/makarimachmad/makarimappstore/middleware"
+	"github.com/makarimachmad/makarimappstore/repo"
+	"github.com/makarimachmad/makarimappstore/service"
 
 	"gorm.io/gorm"
 )

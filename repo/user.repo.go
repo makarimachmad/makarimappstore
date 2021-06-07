@@ -3,7 +3,8 @@ package repo
 import (
 	"log"
 
-	"gopsgheroku/entity"
+	"github.com/makarimachmad/makarimappstore/entity"
+	
 	"golang.org/x/crypto/bcrypt"
 	"gorm.io/gorm"
 )

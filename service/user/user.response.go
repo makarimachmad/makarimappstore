@@ -1,7 +1,6 @@
 package _user
 
-// import "github.com/ydhnwb/golang_heroku/entity"
-import "gopsgheroku/entity"
+import "github.com/makarimachmad/makarimappstore/entity"
 type UserResponse struct {
 	ID    int64  `json:"id"`
 	Name  string `json:"name"`

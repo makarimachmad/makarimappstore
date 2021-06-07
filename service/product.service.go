@@ -8,10 +8,10 @@ import (
 
 	"github.com/mashingan/smapping"
 	
-	"gopsgheroku/dto"
-	"gopsgheroku/entity"
-	"gopsgheroku/repo"
-	_product "gopsgheroku/service/product"
+	"github.com/makarimachmad/makarimappstore/dto"
+	"github.com/makarimachmad/makarimappstore/entity"
+	"github.com/makarimachmad/makarimappstore/repo"
+	_product "github.com/makarimachmad/makarimappstore/service/product"
 )
 
 type ProductService interface {
