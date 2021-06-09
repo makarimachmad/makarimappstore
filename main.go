@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 	"github.com/makarimachmad/makarimappstore/config"
 	"github.com/makarimachmad/makarimappstore/handler/v1"
@@ -33,6 +34,7 @@ func main() {
 	fmt.Println(os.Getenv("DB_USER"))
 
 	server := gin.Default()
+	server.Use(cors.Default())
 
 	authRoutes := server.Group("api/auth")
 	{
